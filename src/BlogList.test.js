@@ -1,7 +1,7 @@
 /* eslint-disable testing-library/prefer-screen-queries */
 import React from 'react';
 import { render } from '@testing-library/react';
-import BlogList from '../components/blog';
+import BlogList from './components/blog';
 
 test('renders blog list correctly', () => {
   const { getByText } = render(<BlogList />);
